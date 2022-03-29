@@ -1,0 +1,23 @@
+/*css za navbar*/
+.nav {
+  background: #42A5F5;
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+}
+ 
+
+
+.nav__title{
+  background: #42A5F5;
+  margin: 0px 30px;
+}
+
+.nav__item{
+  background: #42A5F5;
+  display: inline-block;
+  margin: 0px 30px;
+}
