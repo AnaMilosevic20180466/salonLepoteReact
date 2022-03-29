@@ -1,8 +1,22 @@
 import React from 'react'
+import Kartica from './Kartica'
 
-function Tretmani() {
+function Tretmani({sviTretmani}) {
   return (
-    <div>Tretmani</div>
+    <div className='sviTretmani'>
+           
+        {sviTretmani.map((t)=><Kartica  tretman={t} key={t.id}></Kartica>)}
+
+
+
+
+
+
+
+
+
+
+    </div>
   )
 }
 
