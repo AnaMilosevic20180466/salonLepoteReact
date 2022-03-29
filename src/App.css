@@ -1,6 +1,7 @@
 /*css za navbar*/
 .nav {
   background: #c78283;
+  color: white;
 	position: sticky;
 	display: flex;
 	justify-content: space-between;
@@ -20,6 +21,10 @@
   background: #c78283;
   display: inline-block;
   margin: 0px 30px;
+  
+  color: #fff;
+}
+a{
   text-decoration: none;
   color: #fff;
 }
@@ -32,6 +37,7 @@
 {
  
   background: #c78283;
+  color: #fff;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 3%;
