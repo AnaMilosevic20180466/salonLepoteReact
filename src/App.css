@@ -28,9 +28,37 @@ a{
   text-decoration: none;
   color: #fff;
 }
-
-
-
+.nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: solid 2px #fff;
+}
+.nav input[type=text]:focus {
+   
+  border: none;
+}
+.dugmePretraga {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #c78283;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+ 
+.dugmePretraga:hover{
+  background-color: #df9899;
+}
+::placeholder{
+  color: #fff;
+}
 
 /*za futer*/
 .site-footer
@@ -259,11 +287,29 @@ body{
 .sviTretmani{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
- 
+  flex-wrap: wrap; 
   
    margin-left: 5%;
    margin-right:5%;
-   margin-top: 0;
+   margin-top: 5%;
   justify-content: space-between;
+}
+
+.sortiranje{
+  float: right;
+  margin-right: 5%;
+  
+  background-color: #c78283;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+
+
+}
+.sortiranje:hover{
+  background-color: #d39899;
+  
+
+
 }

@@ -13,7 +13,7 @@ function Navbar({pretrazi}) {
                     <li className="nav__item"> 
                     
                         <input type="text" id="kriterijum" placeholder="Search.." name="search"/>
-                        <button type="submit" onClick={()=>pretrazi(document.getElementById("kriterijum").value)}>   <BsSearch></BsSearch> </button>
+                        <button type="submit" className='dugmePretraga' onClick={()=>pretrazi(document.getElementById("kriterijum").value)}>   <BsSearch></BsSearch> </button>
                     
                     
                     
