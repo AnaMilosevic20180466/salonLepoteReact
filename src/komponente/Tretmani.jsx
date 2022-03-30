@@ -1,11 +1,41 @@
 import React from 'react'
 import Kartica from './Kartica'
 
-function Tretmani({sviTretmani}) {
+function Tretmani({sviTretmani,sortiraj,sort}) {
+  
   return (
-    <div className='sviTretmani'>
-           
-        {sviTretmani.map((t)=><Kartica  tretman={t} key={t.id}></Kartica>)}
+      <div>
+
+        <button className='sortiranje' onClick={()=>sortiraj()}>Sortiraj</button>
+
+        <div className='sviTretmani'>
+
+
+          {sort==true ? 
+          
+          
+              <>
+                  {sviTretmani
+                  .sort((a,b)=> a.cena<b.cena?1:-1)
+                  .map((t)=><Kartica  tretman={t} key={t.id}></Kartica>)
+                  }
+              </> 
+          
+          : 
+          
+              <>
+                  {sviTretmani
+                  .sort((a,b)=> a.cena<b.cena?-1:1)
+                  .map((t)=><Kartica  tretman={t} key={t.id}></Kartica>)
+                  }
+              
+              
+              </>
+          
+          
+          }
+              
+            
 
 
 
@@ -16,6 +46,7 @@ function Tretmani({sviTretmani}) {
 
 
 
+        </div>
     </div>
   )
 }
