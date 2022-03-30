@@ -9,8 +9,9 @@ function Kartica({tretman}) {
     </div>
     <div className="card-body">
         
-        
+        <div className="tag tag-teal"> {tretman.kategorija}    </div>  
         <h4 className = "naslovKartice">   {tretman.naziv}  </h4> 
+      
         <h6 className="opisProizvoda">  
          {tretman.opis}
         <br /><br /> Vreme:  {tretman.vreme} min.

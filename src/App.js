@@ -50,44 +50,97 @@ function App() {
       {
           id:1,
           naziv:"Sportska masaza",
-          slika: "https://medias.sasomange.rs/medias/filed137c509-5955-4364-af09-7eed94e8e510-sm800x600Format?context=bWFzdGVyfHJvb3R8MTE4NjkyfGltYWdlL2pwZWd8aDBmL2hiNS8xMDk0Mzk1Njk3NTY0Ni9maWxlZDEzN2M1MDktNTk1NS00MzY0LWFmMDktN2VlZDk0ZThlNTEwX3NtODAweDYwMEZvcm1hdHwyZDdkZmI5ODZjZDUzMDZkZTVjM2Y2NzZlZDU0YTFkNTBiYzMzYTcyZTliYjRlNmQ1NzBkY2M1NWYzZjVkMzMx",
+          slika: "https://www.wellness-spa.rs/wp-content/uploads/2013/03/massage.jpg",
           opis:" It is a long established fact that a reader will be distracted by",
           vreme: 45,
           cena: 1599,
           adresa:  "Prvomajska 75",
-          pretraga:1
+          pretraga:1,
+          kategorija:"nega tela"
       },
       {
         id:2,
-        naziv:"Manikir",
+        naziv:"nadogradnja noktiju",
         slika: "https://studionamaste.rs/wp-content/uploads/2020/05/nail3-e1590688644899.jpg",
         opis:" It is a long established fact that a reader will be distracted by",
         vreme: 45,
         cena: 3500,
         adresa:  "Prvomajska 75",
-        pretraga:1
+        pretraga:1,
+        kategorija:"manikir/pedikir"
+
     },      
     {
         id:3,
-        naziv:"Sportska masaza",
-        slika: "https://medias.sasomange.rs/medias/filed137c509-5955-4364-af09-7eed94e8e510-sm800x600Format?context=bWFzdGVyfHJvb3R8MTE4NjkyfGltYWdlL2pwZWd8aDBmL2hiNS8xMDk0Mzk1Njk3NTY0Ni9maWxlZDEzN2M1MDktNTk1NS00MzY0LWFmMDktN2VlZDk0ZThlNTEwX3NtODAweDYwMEZvcm1hdHwyZDdkZmI5ODZjZDUzMDZkZTVjM2Y2NzZlZDU0YTFkNTBiYzMzYTcyZTliYjRlNmQ1NzBkY2M1NWYzZjVkMzMx",
+        naziv:"Anticelulit masaza",
+        slika:"http://www.celulitekspert.com/images/masaza-u-day-spa-estetskom-centru-celulit-ekspert-beograd.jpg",
         opis:" It is a long established fact that a reader will be distracted by",
         vreme: 45,
         cena: 5000,
         adresa:  "Prvomajska 75",
-        pretraga:1
+        pretraga:1,
+        kategorija:"nega tela"
+
     },
     {
       id:4,
-      naziv:"Manikir",
-      slika: "https://studionamaste.rs/wp-content/uploads/2020/05/nail3-e1590688644899.jpg",
+      naziv:"higijenski tretman lica",
+      slika: "http://www.fitnessviktorija.com/media/malai-640x440.jpg",
       opis:" It is a long established fact that a reader will be distracted by",
       vreme: 45,
       cena: 1000,
       adresa:  "Prvomajska 75",
-      pretraga:1
-  },
+      pretraga:1,
+      kategorija:"nega lica"
 
+  },
+  {
+    id:5,
+    naziv:"terapeutska masaza",
+    slika: "https://medias.sasomange.rs/medias/filed137c509-5955-4364-af09-7eed94e8e510-sm800x600Format?context=bWFzdGVyfHJvb3R8MTE4NjkyfGltYWdlL2pwZWd8aDBmL2hiNS8xMDk0Mzk1Njk3NTY0Ni9maWxlZDEzN2M1MDktNTk1NS00MzY0LWFmMDktN2VlZDk0ZThlNTEwX3NtODAweDYwMEZvcm1hdHwyZDdkZmI5ODZjZDUzMDZkZTVjM2Y2NzZlZDU0YTFkNTBiYzMzYTcyZTliYjRlNmQ1NzBkY2M1NWYzZjVkMzMx",
+    opis:" It is a long established fact that a reader will be distracted by",
+    vreme: 45,
+    cena: 5000,
+    adresa:  "Prvomajska 75",
+    pretraga:1,
+    kategorija:"nega tela"
+
+},  {
+  id:6,
+  naziv:"polutretman lica",
+  slika: "https://www.platinumbeautycode.rs/wp-content/uploads/2018/11/klasi%C4%8Dantretmanilica.jpg",
+  opis:" It is a long established fact that a reader will be distracted by",
+  vreme: 45,
+  cena: 5000,
+  adresa:  "Prvomajska 75",
+  pretraga:1,
+  kategorija:"nega lica"
+
+},
+{
+  id:7,
+  naziv:"gel lak",
+  slika: "https://static.sredime.rs/image/photo/c/0/c0d8ec4888d56b0fabfe476c780e2cc4/8626_sm.jpg",
+  opis:" It is a long established fact that a reader will be distracted by",
+  vreme: 45,
+  cena: 3500,
+  adresa:  "Prvomajska 75",
+  pretraga:1,
+  kategorija:"manikir/pedikir"
+
+},  
+{
+  id:8,
+  naziv:"nail art",
+  slika: "https://www.uelisky.cz/dwn/1/gel-lak-nokti-slike-2020.jpg",
+  opis:" It is a long established fact that a reader will be distracted by",
+  vreme: 45,
+  cena: 3500,
+  adresa:  "Prvomajska 75",
+  pretraga:1,
+  kategorija:"manikir/pedikir"
+
+},
 
   ]);
 
