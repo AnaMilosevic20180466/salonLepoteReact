@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
-function Navbar() {
+import { BsSearch } from 'react-icons/bs';
+function Navbar({pretrazi}) {
   return (
     <div>	
         <nav className="nav">
@@ -10,7 +10,14 @@ function Navbar() {
                  
                     <li className="nav__item">   <Link to='/'>Pocetna</Link></li>
                     <li className="nav__item"> <Link to='/tretmani'>Tretmani</Link></li>
-                    <li className="nav__item">Blog</li>
+                    <li className="nav__item"> 
+                    
+                        <input type="text" id="kriterijum" placeholder="Search.." name="search"/>
+                        <button type="submit" onClick={()=>pretrazi(document.getElementById("kriterijum").value)}>   <BsSearch></BsSearch> </button>
+                    
+                    
+                    
+                    </li>
                 </ul>
         </nav>
 </div>

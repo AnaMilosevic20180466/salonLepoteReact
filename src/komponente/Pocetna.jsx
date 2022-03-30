@@ -19,7 +19,7 @@ function Pocetna() {
 
    
    
-        <div class="flex-container">
+        <div className="flex-container">
             <div>
                 <h2>NEGA TELA</h2>
                 <p>Prodaja srebrnog nakita Novi Sad. Očekuje Vas vrhunski nakit od srebra najfinije izrade i čistoće 925/1000.Pogledajte kako da i Vaše telo bude lepo, negovano i zdravo</p>
